@@ -1,0 +1,21 @@
+[package]
+name = "tbeyazt/game"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Knit = "sleitnick/knit@^1.7"
+Trove = "sleitnick/trove@1.1.0"
+Signal = "sleitnick/signal@2.0.1"
+Input = "sleitnick/input@2.3.0"
+Loader = "sleitnick/loader@2.0.0"
+TaskQueue = "sleitnick/task-queue@1.0.0"
+TableUtil = "sleitnick/table-util@1.2.1"
+Timer = "sleitnick/timer@1.1.2"
+Comm = "sleitnick/comm@1.0.1"
+Promise = "evaera/promise@4.0.0"
+Dumpster = "onlyroids/dumpster@0.3.10"
+Observe = "kinqandi/observe@1.0.3"
+Shake = "sleitnick/shake@0.1.7"
+Component = "sleitnick/component@2.4.8"

@@ -1,0 +1,13 @@
+[package]
+name = "kinqandi/observe"
+version = "1.0.3"
+registry = "https://github.com/UpliftGames/wally-index"
+license = "MIT OR Apache-2.0"
+realm = "shared"
+authors = [
+	"KinqAndi (https://github.com/KinqAndi)",
+]
+
+[dependencies]
+Dumpster = "kinqandi/dumpster@^0"
+Promise = "evaera/promise@^4"
