@@ -1,13 +1,12 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Players = game:GetService("Players")
 
 local GameVersion = "0.1.0"
 
-local Packages = ReplicatedStorage:WaitForChild("Packages")
+local Packages = ReplicatedStorage:FindFirstChild("Packages")
 
 local Knit = require(Packages.Knit)
 
-Knit.AddControllersDeep(script.Parent.Controllers)
+Knit.AddServicesDeep(script.Parent.Services)
 
 Knit:Start():andThen(
     function()

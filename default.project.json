@@ -7,6 +7,23 @@
       "Assets": {
         "$path": "src/ReplicatedStorage"
       },
+
+      "MadworkMaid": {
+        "$path": "src/ReplicaService/ReplicatedStorage/MadworkMaid.lua"
+      },
+    
+      "MadworkScriptSignal": {
+          "$path": "src/ReplicaService/ReplicatedStorage/MadworkScriptSignal.lua"
+      },
+    
+      "RateLimiter": {
+          "$path": "src/ReplicaService/ReplicatedStorage/RateLimiter.lua"
+      },
+    
+      "ReplicaController": {
+          "$path": "src/ReplicaService/ReplicatedStorage/ReplicaController.lua"
+      },
+
       "Packages": {
         "$path": "Packages"
       }
@@ -15,6 +32,9 @@
     "ServerScriptService": {
       "Server": {
         "$path": "src/Server"
+      },
+      "ReplicaService": {
+        "$path": "src/ReplicaService/ServerScriptService/ReplicaService.lua"
       }
     },
 
